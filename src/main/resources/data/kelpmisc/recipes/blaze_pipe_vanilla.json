@@ -1,0 +1,38 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "tag": "forge:nuggets/brass",
+          "type": "forge:tag_empty"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "  F",
+          "KB ",
+          "N  "
+        ],
+        "key": {
+          "F": {
+            "tag": "forge:nuggets/bone"
+          },
+          "K": {
+            "item": "minecraft:dried_kelp"
+          },
+          "B": {
+            "tag": "forge:rods/blaze"
+          },
+          "N": {
+            "tag": "forge:nuggets/iron"
+          }
+        },
+        "result": {
+          "item": "kelpmisc:blaze_pipe"
+        }
+      }
+    }
+  ]
+}

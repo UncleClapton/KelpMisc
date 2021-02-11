@@ -2,7 +2,7 @@ package dev.clapton.kelpmisc.jei.SimpleFarmingBrewing;
 
 
 
-import dev.clapton.kelpmisc.util.Constants;
+import dev.clapton.kelpmisc.util.KelpResource;
 import enemeez.simplefarming.init.ModBlocks;
 import mezz.jei.api.constants.VanillaTypes;
 import mezz.jei.api.gui.IRecipeLayout;
@@ -31,7 +31,7 @@ public class SimpleFarmingBrewingRecipeCategory implements IRecipeCategory<Brewi
     private final String localizedName;
 
     public SimpleFarmingBrewingRecipeCategory(IGuiHelper guiHelper) {
-        background = guiHelper.createDrawable(Constants.JEI_BARREL_BREWING_GUI, 0, 0, 82, 44);
+        background = guiHelper.createDrawable(KelpResource.JEI_BARREL_BREWING_GUI, 0, 0, 82, 44);
         icon = guiHelper.createDrawableIngredient(new ItemStack(ModBlocks.brewing_barrel));
         localizedName = I18n.format("block.simplefarming.brewing_barrel");
     }

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:bones"
+    },
+    {
+      "tag": "forge:bones"
+    },
+    {
+      "tag": "forge:bones"
+    }
+  ],
+  "result": {
+    "item": "kelpmisc:bone_fragment",
+    "count": 9
+  }
+}

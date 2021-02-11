@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#kelpmisc:gui/clock",
+    "#kelpmisc:gui/position"
+  ]
+}
